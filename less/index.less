@@ -3,7 +3,7 @@
 /* Variables */
 @bluecolor: #395F74;
 @pinkcolor: #FFE0E0;
-@font: #font-family: 'Montserrat', sans-serif;
+@font: 'Raleway', sans-serif;
 
 /* Mixins */
 .backgroundpink(){
@@ -33,7 +33,7 @@ font-family: @font;
 html,
 body {
 height: 100%;
-border: 1px solid gray;
+/*border: 1px solid gray;*/
 }
 
 .headercontainer {
@@ -49,7 +49,6 @@ background-color: #fffff0;
 background-color: @bluecolor;
 
 .title {
-
 font-size: 30px;
 color: @pinkcolor;
 text-align: center;
@@ -57,15 +56,13 @@ display: flex;
 justify-content: space-evenly;
 flex-direction: column;
 font-family: @font;
-}
 h1 {
 text-decoration: underline;
 }
-
-@media (max-width: 500px ){
-font-size: 20px;
 }
-
+@media (max-width: 500px ){
+	font-size: 20px;
+	}
 }
 
 
@@ -111,6 +108,7 @@ width: 25%;
 align-items: center;
 padding: 1%;
 color: #395F74;
+
 @media (max-width:500px) {
 	display: flex;
 	flex-direction: column;
@@ -118,8 +116,6 @@ color: #395F74;
 	width: 95%;
 	padding: 0%;
 	}
-
-
 
 img {
 margin-left: 4%;
@@ -134,21 +130,24 @@ font-size: 20px;
 text-align: center;
 border-bottom: .borderbottom();
 background-color: #8FA5B0;
-}
+
 p{
 font-size: 15px;
-}
+
 ul {
 font-size: 15px;
 list-style-type: square;
-}
+
 .skills {
 
 	margin: 10%;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	}
+}
+}
+}
+}
 }
 
 
